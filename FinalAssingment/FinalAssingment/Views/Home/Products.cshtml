@@ -8,6 +8,7 @@
 
 <ul>
     @foreach (var p in Model) {
-        <li>@Html.ActionLink(p.Name,"ProductInformation","Home")</li>
+        //This new Parameter will help us to find out about the product name and differenciate to different products
+        <li>@Html.ActionLink(p.Name,"ProductInformation","Home" , new { ProductName = p.Name }, null)</li>
     }
 </ul>
