@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FinalAssingment.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -22,8 +23,40 @@ namespace FinalAssingment.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Group 9 contect Page.";
 
+            ViewBag.Message = "Group 9 contect Page.";
+            
+            return View();
+        }
+
+        public ActionResult Products()
+        {
+            /*var products = new List<String>();
+            //Create Products
+
+            for (int i = 1; i <= 10; i++)
+            {
+                products.Add("Product" + i.ToString());
+            }
+            //Give products to the view to display it
+            ViewBag.Products = products;
+            */
+
+            var products = new List<Product>() ;
+
+            for (int i = 1; i <= 10; i++)
+            {
+                Product product = new Product();
+                product.Name = "Product" + i.ToString();
+                products.Add(product);
+            }
+                 
+            //load the view
+            return View(products);
+        }
+
+        public ActionResult ProductInformation()
+        {
             return View();
         }
     }
