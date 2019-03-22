@@ -55,6 +55,10 @@ namespace FinalAssingment.Controllers
             return View(products);
         }
 
+        public ActionResult FeedBack() {
+            return View();
+        }
+
         public ActionResult ProductInformation(String ProductName)
         {
             ViewBag.ProductName = ProductName;
