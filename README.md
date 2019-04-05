@@ -7,7 +7,7 @@
 * Authentication: - Login/Signin/OpenID
 * Perpose: - To sale and buy products
 
-<h2>Team Members of Group 9</h2>
+##Team Members of Group 9
  * Keval Patel      : - 200393482
  * Ujjwal Bhasin 	: - 200389272
  * Gagandeep Kaur  	: - 200360061
