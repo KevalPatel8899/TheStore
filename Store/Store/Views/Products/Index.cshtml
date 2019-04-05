@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Store.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductPhoto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryName.CategoryName)
+            </th>
+
+                <th>Actions</th>
+           
+        </tr>
+
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @if (item.ProductPhoto != null)
+                {
+                    <img src="~/Content/Images/@item.ProductPhoto" class="thumb" />
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName.CategoryName)
+            </td>
+            <td>
+                @Html.ActionLink("Details |", "Details", new { id = item.ProductId })
+
+                @if (Request.IsAuthenticated)
+                {
+                    @Html.ActionLink("Edit |", "Edit", new { id = item.ProductId })
+                    @Html.ActionLink(" Delete", "Delete", new { id = item.ProductId })
+                }
+            </td>
+
+        </tr>
+        }
+
+    </table>

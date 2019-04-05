@@ -1,0 +1,161 @@
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\FinalAssingment.Tests.dll.config
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\FinalAssingment.Tests.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\FinalAssingment.Tests.pdb
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\FinalAssingment.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Newtonsoft.Json.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.Helpers.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.Mvc.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.Razor.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.WebPages.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.Optimization.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Security.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Owin.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\EntityFramework.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\FinalAssingment.pdb
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\FinalAssingment.dll.config
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Newtonsoft.Json.xml
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.Helpers.xml
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.Mvc.xml
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.Razor.xml
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.WebPages.xml
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.xml
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.Optimization.xml
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Security.xml
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\EntityFramework.xml
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\obj\Debug\FinalAssingment.Tests.csprojAssemblyReference.cache
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\obj\Debug\FinalAssingment.Tests.csproj.CoreCompileInputs.cache
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\obj\Debug\FinalAssingment.Tests.csproj.CopyComplete
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\obj\Debug\FinalAssingment.Tests.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\obj\Debug\FinalAssingment.Tests.pdb
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\FinalAssingment.Tests.dll.config
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\FinalAssingment.Tests.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\FinalAssingment.Tests.pdb
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\FinalAssingment.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Owin.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\EntityFramework.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\FinalAssingment.pdb
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\FinalAssingment.dll.config
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\EntityFramework.xml
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\obj\Debug\FinalAssingment.Tests.csprojAssemblyReference.cache
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\obj\Debug\FinalAssingment.Tests.csproj.CoreCompileInputs.cache
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\obj\Debug\FinalAssingment.Tests.csproj.CopyComplete
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\obj\Debug\FinalAssingment.Tests.dll
+C:\Users\keval\OneDrive\Desktop\Group9-master\FinalAssingment\FinalAssingment.Tests\obj\Debug\FinalAssingment.Tests.pdb
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Security.Google.dll
+E:\Georgian college\SEM3\Group9\FinalAssingment\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Security.Google.xml
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\FinalAssingment.Tests.dll.config
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\FinalAssingment.Tests.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\FinalAssingment.Tests.pdb
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Store.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Owin.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\EntityFramework.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Security.Google.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Store.pdb
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Store.dll.config
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\EntityFramework.xml
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Security.Google.xml
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\obj\Debug\FinalAssingment.Tests.csprojAssemblyReference.cache
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\obj\Debug\FinalAssingment.Tests.csproj.CoreCompileInputs.cache
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\obj\Debug\FinalAssingment.Tests.csproj.CopyComplete
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\obj\Debug\FinalAssingment.Tests.dll
+C:\Users\keval\source\repos\Store\FinalAssingment.Tests\obj\Debug\FinalAssingment.Tests.pdb
