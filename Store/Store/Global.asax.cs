@@ -15,7 +15,6 @@ namespace Store
         {
             Database.SetInitializer(new DropCreateDatabaseAlways<Store.Models.StoreContext>());
 
-
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

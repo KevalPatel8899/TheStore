@@ -14,7 +14,7 @@ namespace Store.Controllers
     {
         private StoreContext db = new StoreContext();
  
-        // GET: Suggestion
+        // GET: Feedback
         public ActionResult Index()
         {
             FeedbackList c1 = new FeedbackList();
@@ -41,7 +41,7 @@ namespace Store.Controllers
             return PartialView(cl);
         }
 
-        // GET: Suggestion/Details/5
+        // GET: Feedback/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -56,37 +56,37 @@ namespace Store.Controllers
             return View(Feedback);
         }
 
-        // GET: Suggestion/Create
+        // GET: Feedback/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Suggestion/Create
+        // POST: Feedback/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "CustomerId,CostomerName,CustomerFeedback")] Feedback Feedback)
+        public ActionResult Create([Bind(Include = "CustomerName,CustomerFeedback")] Feedback newCustomers)
         {
-            if (CreateFeedback(Feedback))
+            if (CreateFeedback(newCustomers))
                 return RedirectToAction("Index");
 
-            return View(Feedback);
+            return PartialView(newCustomers);
         }
 
-        private bool CreateFeedback(Feedback Feedback)
+        private bool CreateFeedback(Feedback newCustomer)
         {
             if (ModelState.IsValid)
             {
-                db.Feedbacks.Add(Feedback);
+                db.Feedbacks.Add(newCustomer);
                 db.SaveChanges();
                 return true;
             }
             return false;
         }
 
-        // GET: Suggestion/Edit/5
+        // GET: Feedback/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -101,7 +101,7 @@ namespace Store.Controllers
             return View(Feedback);
         }
 
-        // POST: Suggestion/Edit/5
+        // POST: Feedback/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -117,7 +117,7 @@ namespace Store.Controllers
             return View(Feedback);
         }
 
-        // GET: Suggestion/Delete/5
+        // GET: Feedback/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -132,7 +132,7 @@ namespace Store.Controllers
             return View(Feedback);
         }
 
-        // POST: Suggestion/Delete/5
+        // POST: Feedback/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)

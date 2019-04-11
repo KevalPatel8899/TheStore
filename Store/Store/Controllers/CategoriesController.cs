@@ -6,18 +6,31 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using Store.App_Start;
 using Store.Models;
 
 namespace Store.Controllers
 {
     public class CategoriesController : Controller
     {
-        private StoreContext db = new StoreContext();
+        //private StoreContext db = new StoreContext();
+        IBLCategories db;
+
+
+        public CategoriesController()
+        {
+            this.db = new CategoriesBL();
+        }
+
+        public CategoriesController(IBLCategories bl) {
+            this.db = bl;
+
+        }
 
         // GET: Categories
         public ActionResult Index()
         {
-            return View(db.Categories.ToList());
+            return View("Index",db.Categories.ToList());
         }
 
         // GET: Categories/Details/5
@@ -27,7 +40,10 @@ namespace Store.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Category category = db.Categories.Find(id);
+            
+            //Category category = db.Categories.Find(id);
+            Category category = db.Categories.SingleOrDefault(c => c.CategoryId == id);
+
             if (category == null)
             {
                 return HttpNotFound();
@@ -39,7 +55,7 @@ namespace Store.Controllers
         [Authorize]
         public ActionResult Create()
         {
-            return View();
+            return View("Create");
         }
 
         // POST: Categories/Create
@@ -52,12 +68,13 @@ namespace Store.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Categories.Add(category);
-                db.SaveChanges();
+                //db.Categories.Add(category);
+                //db.SaveChanges();
+                db.Save(category);
                 return RedirectToAction("Index");
             }
 
-            return View(category);
+            return View("Create", category);
         }
 
         // GET: Categories/Edit/5
@@ -68,12 +85,15 @@ namespace Store.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Category category = db.Categories.Find(id);
+
+            //Category category = db.Categories.Find(id);
+            Category category = db.Categories.SingleOrDefault(c => c.CategoryId == id);
+
             if (category == null)
             {
                 return HttpNotFound();
             }
-            return View(category);
+            return View("Edit",category);
         }
 
         // POST: Categories/Edit/5
@@ -86,11 +106,13 @@ namespace Store.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Entry(category).State = EntityState.Modified;
-                db.SaveChanges();
+                //db.Entry(category).State = EntityState.Modified;
+                //db.SaveChanges();
+
+                db.Save(category);
                 return RedirectToAction("Index");
             }
-            return View(category);
+            return View("Edit",category);
         }
 
         // GET: Categories/Delete/5
@@ -101,12 +123,16 @@ namespace Store.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Category category = db.Categories.Find(id);
+
+            //Category category = db.Categories.Find(id);
+            Category category = db.Categories.SingleOrDefault(c => c.CategoryId == id);
+
+
             if (category == null)
             {
                 return HttpNotFound();
             }
-            return View(category);
+            return View("Delete", category);
         }
 
         // POST: Categories/Delete/5
@@ -115,9 +141,13 @@ namespace Store.Controllers
         [Authorize]
         public ActionResult DeleteConfirmed(int id)
         {
-            Category category = db.Categories.Find(id);
-            db.Categories.Remove(category);
-            db.SaveChanges();
+            // Categoy category = db.Categories.Find(id);
+            Category category = db.Categories.SingleOrDefault(c => c.CategoryId == id);
+
+            //db.Categories.Remove(category);
+            //db.SaveChanges();
+            db.Delete(category);
+            
             return RedirectToAction("Index");
         }
 

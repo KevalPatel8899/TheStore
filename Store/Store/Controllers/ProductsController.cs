@@ -7,6 +7,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using Store.App_Start;
 using Store.Models;
 
 namespace Store.Controllers

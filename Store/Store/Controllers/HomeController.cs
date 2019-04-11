@@ -8,12 +8,15 @@ namespace Store.Controllers
 {
     public class HomeController : Controller
     {
+        [Route("")]
+        [Route("home")]
+        [Route("home/Index")]
         public ActionResult Index()
         {
             return View();
         }
-
-
+        
+        [Route ("fuckoff")]
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -21,6 +24,7 @@ namespace Store.Controllers
             return View();
         }
 
+        [Route ("contact")]
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
