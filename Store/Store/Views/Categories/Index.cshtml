@@ -14,10 +14,7 @@
         <th>
             @Html.DisplayNameFor(model => model.CategoryName)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ProductPhoto)
-        </th>
-        <th></th>
+         <th></th>
     </tr>
 
 @foreach (var item in Model) {
@@ -25,9 +22,7 @@
         <td>
             @Html.DisplayFor(modelItem => item.CategoryName)
         </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ProductPhoto)
-        </td>
+
         <td>
             @Html.ActionLink("Details |", "Details", new { id = item.CategoryId }) 
 

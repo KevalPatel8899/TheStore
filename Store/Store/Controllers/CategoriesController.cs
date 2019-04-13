@@ -26,7 +26,7 @@ namespace Store.Controllers
             this.db = bl;
 
         }
-
+        [Route("CategoryList")]
         // GET: Categories
         public ActionResult Index()
         {
@@ -48,9 +48,9 @@ namespace Store.Controllers
             {
                 return HttpNotFound();
             }
-            return View(category);
+            return View("Details",category);
         }
-
+        [Route("CreateCategory")]
         // GET: Categories/Create
         [Authorize]
         public ActionResult Create()

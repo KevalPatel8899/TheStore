@@ -5,11 +5,13 @@ using System.Web;
 
 namespace Store.Models.BL
 {
-    public class ProductBL : IProductBL
+    public class ProductBL : IProduct
     {
         private StoreContext db = new StoreContext();
 
         public IQueryable<Product> Products { get { return db.Products; } }
+        public IQueryable<Category> Categories { get { return db.Categories; } }
+
 
         public void Delete(Product product)
         {

@@ -36,7 +36,7 @@ namespace Store.Tests.Controllers
             // Assert
             Assert.AreEqual("Your application description page.", result.ViewBag.Message);
         }
-
+                
         [TestMethod]
         public void Contact()
         {
@@ -47,8 +47,7 @@ namespace Store.Tests.Controllers
             ViewResult result = controller.Contact() as ViewResult;
 
             // Assert
-            Assert.IsNotNull(result);
-            Assert.AreEqual("hELLLO",result.ViewName);
+            Assert.AreEqual("Your contact page", result.ViewBag.Message);
         }
     }
 }

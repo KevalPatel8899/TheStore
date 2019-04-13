@@ -15,8 +15,9 @@ namespace Store
 
                                    
             routes.MapRoute(
-                name: "EverythingStore",
-                url: "TheStore/{controller}/{action}/{id}",
+                //I am not using this Routing Because I am not able to use authentication in different controllers
+                name: "TheStore",
+                url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
         }

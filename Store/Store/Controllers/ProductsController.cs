@@ -1,26 +1,33 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
-using System.IO;
+﻿using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
-using Store.App_Start;
 using Store.Models;
+using Store.Models.BL;
 
 namespace Store.Controllers
 {
     public class ProductsController : Controller
     {
-        private StoreContext db = new StoreContext();
+        //private StoreContext db = new StoreContext();
+        IProduct db;
 
+
+        public ProductsController()
+        {
+            this.db = new ProductBL();
+        }
+
+        public ProductsController(IProduct db)
+        {
+            this.db = db;
+
+        }
         // GET: Products
         public ActionResult Index()
         {
             var products = db.Products.Include(p => p.CategoryName);
-            return View(products.ToList());
+            return View("Index", products.ToList());
         }
 
         // GET: Products/Details/5
@@ -30,12 +37,13 @@ namespace Store.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Product product = db.Products.Find(id);
+            //Product product = db.Products.Find(id);
+            Product product = db.Products.SingleOrDefault(p => p.ProductId == id);
             if (product == null)
             {
                 return HttpNotFound();
             }
-            return View(product);
+            return View("Details",product);
         }
 
         // GET: Products/Create    
@@ -43,7 +51,7 @@ namespace Store.Controllers
         public ActionResult Create()
         {
             ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "CategoryName");
-            return View();
+            return View("Create");
         }
 
         // POST: Products/Create
@@ -55,13 +63,14 @@ namespace Store.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Products.Add(product);
-                db.SaveChanges();
+                //db.Products.Add(product);
+                //db.SaveChanges();
+                db.Save(product);
                 return RedirectToAction("Index");
             }
 
             ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "CategoryName", product.CategoryId);
-            return View(product);
+            return View("Create", product);
         }
 
         // GET: Products/Edit/5
@@ -72,13 +81,14 @@ namespace Store.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Product product = db.Products.Find(id);
+            //Product product = db.Products.Find(id);
+            Product product = db.Products.SingleOrDefault(p => p.ProductId == id);
             if (product == null)
             {
                 return HttpNotFound();
             }
             ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "CategoryName", product.CategoryId);
-            return View(product);
+            return View("Edit",product);
         }
 
         // POST: Products/Edit/5
@@ -90,26 +100,14 @@ namespace Store.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (Request.Files != null)
-                {
-                    var file = Request.Files[0];
 
-                    if (file.FileName != null && file.ContentLength > 0)
-                    {
-                        // remove path from Edge uploads
-                        string fName = Path.GetFileName(file.FileName);
-
-                        string path = Server.MapPath("~/Content/Images/" + fName);
-                        file.SaveAs(path);
-                        product.ProductPhoto = fName;
-                    }
-                }
-                db.Entry(product).State = EntityState.Modified;
-                db.SaveChanges();
+                //db.Entry(product).State = EntityState.Modified;
+                //db.SaveChanges();
+                db.Save(product);
                 return RedirectToAction("Index");
             }
             ViewBag.CategoryId = new SelectList(db.Categories, "CategoryId", "CategoryName", product.CategoryId);
-            return View(product);
+            return View("Edit",product);
         }
 
         // GET: Products/Delete/5
@@ -120,12 +118,13 @@ namespace Store.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Product product = db.Products.Find(id);
+            Product product = db.Products.SingleOrDefault(p => p.ProductId == id);
+            //Product product = db.Products.Find(id);
             if (product == null)
             {
                 return HttpNotFound();
             }
-            return View(product);
+            return View("Delete",product);
         }
 
         // POST: Products/Delete/5
@@ -134,9 +133,11 @@ namespace Store.Controllers
         [Authorize]
         public ActionResult DeleteConfirmed(int id)
         {
-            Product product = db.Products.Find(id);
-            db.Products.Remove(product);
-            db.SaveChanges();
+            //Product product = db.Products.Find(id);
+            Product product = db.Products.SingleOrDefault(p => p.ProductId == id);
+            //db.Products.Remove(product);
+            //db.SaveChanges();
+            db.Delete(product);
             return RedirectToAction("Index");
         }
 

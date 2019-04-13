@@ -201,7 +201,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\BL\IProductBL.cs" />
+    <Compile Include="Models\BL\IProduct.cs" />
     <Compile Include="Models\BL\ProductBL.cs" />
     <Compile Include="Models\BL\CategoriesBL.cs" />
     <Compile Include="Models\Category.cs" />
@@ -228,6 +228,10 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\Store20 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\Store20 - Web Deploy1.pubxml" />
+    <None Include="Properties\PublishProfiles\Store20190412091314 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\TheStore21 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -241,7 +245,9 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

@@ -8,9 +8,9 @@ namespace Store.Models
 {
     interface IMockProducts
     {
-        IQueryable<Product> Products { get; set; }
-        Product Save(Category category);
-        void Delete(Category category);
-
+        IQueryable<Product> Products { get; }
+        Product Save(Product product);
+        void Delete(Product product);
+        void Dispose();
     }
 }

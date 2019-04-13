@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Store20" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\keval\\source\\repos\\Group9\\Store\\Store\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\keval\\source\\repos\\Group9\\Store\\Store\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-Store-20190402094147.mdf;Initial Catalog=aspnet-Store-20190402094147;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\keval\\source\\repos\\Group9\\Store\\Store\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="StoreContext-Web.config Connection String" description="" value="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=StoreContext-20190402220316; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|StoreContext-20190402220316.mdf" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\keval\\source\\repos\\Group9\\Store\\Store\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='StoreContext']/@connectionString" />
+  </parameter>
+</parameters>

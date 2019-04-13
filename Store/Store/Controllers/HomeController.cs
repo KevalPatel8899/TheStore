@@ -16,7 +16,7 @@ namespace Store.Controllers
             return View();
         }
         
-        [Route ("fuckoff")]
+        [Route ("About")]
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
