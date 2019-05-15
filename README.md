@@ -13,3 +13,8 @@ This website is very easy to use and to sell which makes convinient time saving 
 Website with authentication make this site safe to use 
 <br>With google authentication it will make easy to authorize 
 <img src ="https://user-images.githubusercontent.com/43249256/57121708-37560280-6d47-11e9-9550-2dd53ccc9aa2.PNG">
+
+<h2>Give Your Feedback</h2>
+Also There is an option available which is feedback
+This feedback use AJAX to avoid the loading and give an instant resolution
+<img src="https://user-images.githubusercontent.com/43249256/57816784-96a21280-774a-11e9-8f3f-86602dc466d3.PNG">
